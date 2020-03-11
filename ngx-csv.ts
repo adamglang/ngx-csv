@@ -49,10 +49,10 @@ export class ngxCsv {
 
     public fileName: string;
     public labels: Array<String>;
-    public data: any[];
+	public data: any[];
+	public csv = "";
 
     private _options: Options;
-    private csv = "";
 
     constructor(DataJSON: any, filename: string, options?: any) {
         let config = options || {};
@@ -133,7 +133,7 @@ export class ngxCsv {
         for (let i = 0; i < this.data.length; i++) {
             let row = "";
             for (const index in this.data[i]) {
-                row += this.formartData(this.data[i][index]) + this._options.fieldSeparator;
+                row += this.formatData(this.data[i][index]) + this._options.fieldSeparator;
             }
 
             row = row.slice(0, -1);            
@@ -145,7 +145,7 @@ export class ngxCsv {
      * Format Data
      * @param {any} data
      */
-    formartData(data: any) {
+    formatData(data: any) {
         if (this._options.removeEmptyValues && !data) {
             return "";
         }

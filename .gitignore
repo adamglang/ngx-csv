@@ -10,5 +10,6 @@ Thumbs.db
 *.d.ts
 !custom.d.ts
 .idea/
+.history/
 *.iml
 coverage/**
