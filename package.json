@@ -1,10 +1,10 @@
 {
   "name": "z-ngx-csv",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "Helper library for create CSV file in Angular 2+",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lhanscom/ngx-csv.git"
+    "url": "https://github.com/adamglang/ngx-csv"
   },
   "scripts": {
     "dev": "tsc --watch",
@@ -24,25 +24,16 @@
     "libreoffice",
     "openoffice"
   ],
-  "author": "Luke Hanscom",
-  "email": "Luke@HanscomEngineering.com",
-  "contributors": [
-    {
-      "name": "Davor Peic - Krushka Design",
-      "email": "info@krushka.mx"
-    },
-    {
-      "name": "Abdullah Alhazmy",
-      "email": "me@alhazmy13.net"
-    }
-  ],
+  "author": "Adam Lang",
+  "email": "adam.lang.sde@gmail.com.com",
+  "contributors": [],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lhanscom/ngx-csv/issues"
+    "url": "https://github.com/adamglang/ngx-csv/issues"
   },
   "main": "./dist/ngx-csv.js",
   "typings": "/dist/ngx-csv.d.ts",
-  "homepage": "https://github.com/lhanscom/ngx-csv/#readme",
+  "homepage": "https://github.com/adamglang/ngx-csv#readme",
   "devDependencies": {
     "@angular/common": "^7.1.0",
     "@angular/core": "^7.1.0",
